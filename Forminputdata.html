@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    
+    <style>
+        body {
+        background-image: url(https://wallpapercave.com/wp/wp2942937.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        }
+        #Label {
+        position: absolute;
+        top: 300px;
+        left: 15%;
+        text-align: center;
+        height: 1000px;
+        width: 1000px;
+        z-index: 99;
+        }
+        .card{
+            background-color: rgb(39, 187, 255);
+            color: white;
+        }
+        .card-text{
+            text-align: justify;
+        }
+        .form-control{
+            background-color: rgb(225, 225, 225);
+        }
+    </style>
+
+    <title>POSYANDU</title>
+    
+</head>
+<body>
+    <nav class="navbar text-white" style="background-color: #59b5e7;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white">
+                    <img src="https://cdn-icons.flaticon.com/png/128/4527/premium/4527783.png?token=exp=1654754569~hmac=bac5ebf44f5441c35f88af6d9b00a68d" 
+            alt="" width="36" height="30" class="d-inline-block align-text-top">
+            POSYANDU
+            </a>
+        </div>
+    </nav>
+        
+    <div class="container-fluid align-self-start shadow-lg p-3 mb-5">
+        <div class="container pb-3">
+            <div class="row g-2 g-lg-3">
+                <div class="col-lg-10 px-5">
+                    <h2 class="fst-italic text-light">INPUTAN DATA BAYI</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container col-md-6">
+            <div class="card">
+                <div class="card-header text-white" style="background-color: #ff77e4 ;">
+                    <img src=" https://cdn-icons.flaticon.com/png/128/6007/premium/6007904.png?token=exp=1654758004~hmac=485f81b83a399c10d51d5a3b9d91b159" 
+                        alt="" width="36" height="30" class="d-inline-block align-text-top">
+                    Input Data 
+                </div>
+                <div class="card-body">
+                    <form action="" method="POST" class="form-item">
+                        <div class="form-group">
+                            <label for="nama">Nama Ayah</label>
+                            <input type="text" name="nama_ayah" class="form-control col-md-9" placeholder="Masukkan Nama Ayah">
+                        </div>
+                        <div class="form-group">
+                            <label for="telp">Nama Ibu</label>
+                            <input type="text" name="nama_ibu" class="form-control col-md-9" placeholder="Masukkan Nama Ibu">
+                        </div>
+                        <div class="form-group">
+                            <label for="telp">Nama Bayi</label>
+                            <input type="text" name="nama_bayi" class="form-control col-md-9" placeholder="Masukkan Nama Bayi">
+                        </div>
+                        <div class="form-group">
+                            <label for="telp">Tempat Lahir</label>
+                            <input type="text" name="tempat_lahir" class="form-control col-md-9" placeholder="Masukkan Tempat Lahir">
+                        </div>
+                        <div class="form-group">
+                            <label for="telp">Tanggal Lahir</label>
+                            <input type="text" name="tanggal_lahir" class="form-control col-md-9" placeholder="Masukkan Tanggal Lahir">
+                        </div>
+                        <div class="form-group">
+                            <label for="telp">Alamat</label>
+                            <input type="text" name="alamat" class="form-control col-md-9" placeholder="Masukkan Alamat">
+                        </div>
+                        <h1></h1>
+                        <h1></h1>
+                        <button type="create" class="btn btn-primary" name="create">create</button>
+                        <button type="reset" class="btn btn-danger">BATAL</button>
+                        <a href="index.html" class="btn btn-primary">BACK</a>
+                    </form>
+                 </div>
+            </div>
+         </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
